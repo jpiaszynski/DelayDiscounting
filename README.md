@@ -53,8 +53,7 @@ for the immediate reward, and a 1 represents a preference for the delay reward (
 and immediate reward happen to be the same at any point, any number can be used as this cell
 will be ignored). If given a csv, the program will immediately compute the statistics. If available,
 the user can also supply a set of pre-calculated indifference points. If desired, the delay lengths
-and immediate reward amounts can also be changed.
-On the command line, type:
+and immediate reward amounts can also be changed. To run, type the following on the command line:
 
 python DelayDiscounting.py
 
