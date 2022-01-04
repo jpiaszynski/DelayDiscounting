@@ -55,13 +55,16 @@ will be ignored). If given a csv, the program will immediately compute the stati
 the user can also supply a set of pre-calculated indifference points. If desired, the delay lengths
 and immediate reward amounts can also be changed.
 On the command line, type:
+
 python DelayDiscounting.py
 
 
 Future additions:
 
 Support for command line arguments
+
 Storing computed information in a separate file
+
 A cleaner test administration interface
 
 
