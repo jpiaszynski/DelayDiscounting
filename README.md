@@ -1,8 +1,11 @@
 # DelayDiscounting
 ! Work In Progress
+
 A Python implementation of the Delay Discounting neuropsychological task.
 
+
 What is delay discounting?
+
 Delay discounting is a measure of the degree to which a person prefers immediate rewards
 relative to larger rewards that require a waiting period before receiving it. At one extreme,
 a person would rather take a very small reward rather than waiting for a much larger one,
@@ -24,6 +27,7 @@ based on the the closeness of the fitted model to the actual data.
 
 
 What this package offers:
+
 This program takes a series of delay/immediate preferences for various times and delay periods,
 either from a csv or from administering the test, and computes indifference points for each
 delay period. It uses these points to find the rate of discounting for both a hyperbolic
@@ -36,6 +40,7 @@ All of this information is printed to the command line.
 
 
 Use:
+
 Currently, the only option for use is to edit the main() function in the file itself. This
 file uses an object-oriented approach, and an example of formatting and options is given
 in the main function by default. The only thing that must be included is a subject name,
@@ -54,8 +59,10 @@ python DelayDiscounting.py
 
 
 Future additions:
+
 Support for command line arguments
 Storing computed information in a separate file
 A cleaner test administration interface
+
 
 NOTE: this program should not be used for diagnostic or research purposes.
