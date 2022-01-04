@@ -336,7 +336,7 @@ class DelayDiscounting:
 
 
 def main():
-    data = DelayDiscounting("test",record="./test.csv")
+    data = DelayDiscounting("test",record="./test_dataset.csv")
     data.printSummary()
     data.plotCurve("exponential","./exponentialPlot_{}.png".format(data.subject_ID))
     data.plotCurve("hyperbolic","./hyperbolicPlot_{}.png".format(data.subject_ID))
