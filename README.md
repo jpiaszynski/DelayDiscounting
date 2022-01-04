@@ -30,7 +30,7 @@ What this package offers:
 
 This program takes a series of delay/immediate preferences for various times and delay periods,
 either from a csv or from administering the test, and computes indifference points for each
-delay period. It uses these points to find the rate of discounting for both a hyperbolic
+delay period. It uses these points to find the rate of discounting (called the "k-value") for both a hyperbolic
 (delay amount / (1 + (discounting rate) * (delay length)) curve and an exponential curve
 ((delay amount) * e^( -(discounting rate) * (delay length) )). It also computes the
 Residual Sum of Squares for each, and a trapezoidal area-under-the-curve for both
